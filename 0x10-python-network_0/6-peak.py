@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+"""6-peak.py module"""
+
 def find_peak(list_of_integers):
     """
     Find a peak in a list of unsorted integers.
@@ -15,3 +18,5 @@ def find_peak(list_of_integers):
             high = mid
 
     return list_of_integers[low]
+
+# Time complexity: O(log(n))
